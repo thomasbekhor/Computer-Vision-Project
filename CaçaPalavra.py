@@ -32,7 +32,7 @@ def busca_palavras_na_matriz(matriz, palavras):
         for l in range(linhas):
             for c in range(colunas):
                 if matriz[l][c] == palavra[0]:
-                    for dl, dc in [(0, 1), (1, 0), (1, 1), (1, -1)]:
+                    for dl, dc in [(0, 1), (1, 0), (1, 1), (1, -1), (0, -1), (-1, 0), (-1, -1), (-1, 1)]:
                         encontrada, posicoes = buscar_direcao(l, c, dl, dc)
                         if encontrada:
                             return True, posicoes
