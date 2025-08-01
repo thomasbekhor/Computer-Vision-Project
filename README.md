@@ -1,7 +1,3 @@
-Here's a professional and clear `README.md` for your project:
-
----
-
 # 🧩 Word Search Puzzle Solver
 
 This project is a **Word Search Puzzle Solver** that uses **OCR (Optical Character Recognition)** and **image processing** to detect letters from a word search puzzle image, find given words within the grid, and highlight them directly on the image.
